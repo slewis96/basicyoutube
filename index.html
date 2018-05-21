@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YouTube</title>
+    <link rel="icon" href="images/icon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Format.css">
+  </head>
+  <header>
+    <img class="menuico" src="images/menu.png" alt="menuico">
+    <a class="logo" href="./index.html"><img src="images/logo2.png" alt="Logo"></a>
+    <form action="" style="display:inline;">
+      <input class="searchfield" type="text" placeholders="Search" name="search">
+      <button class="searchbutton" type="submit"><i><img src="images/searchico.png" alt="searchicon" width="100%"></i></button>
+    </form>
+    <div class="profileoptions">
+      <img src="images/avatar.png" alt="profile">
+    </div>
+    <div class="navoptions">
+      <img src="images/dummiemenu.png" alt="menu buttons">
+    </div>
+  </header>
+  <body>
+    <div class="sidebar">
+      <div class="options"><a href="./index.html"><img src="images/home.png" alt="home option"> Home </a> </div>
+      <div class="options"><a><img src="images/trending.png" alt="trending option"> Trending </a> </div>
+      <div class="options"><a><img src="images/history.png" alt="history option"> History </a> </div>
+      <hr>
+      <br>
+      <img src="images/cato.png" alt="Catorgories">
+    </div>
+    <div class="Recommended">
+      <h4>Recommended</h4>
+      <figure>
+        <a href="pages/1.html"><img src="images/tn1.png" alt="tmbnail1"></a>
+        <figcaption>
+          <a href="pages/1.html">8 Box Office Flops Much<br>Better Than Their...</a><br>
+          <sub>WhatCulture	&#10004;</sub><br>
+          <sub>102K views &#8231; 21 hours ago</sub>
+        </figcaption>
+      </figure>
+      <figure>
+        <a href="pages/2.html"><img src="images/tn2.png" alt="tmbnail2"></a>
+        <figcaption>
+          <a href="pages/2.html">10 Things You Probably<br>Didn't Know About...</a><br>
+          <sub>TopTenz	&#10004;</sub><br>
+          <sub>112K views &#8231; 3 weeks ago</sub>
+        </figcaption>
+      </figure>
+      <figure>
+        <a href="pages/3.html"><img src="images/tn3.png" alt="tmbnail3"></a>
+        <figcaption>
+          <a href="pages/3.html">Xbox Adaptive Controller<br>First Look</a><br>
+          <sub>Engadget &#10004;
+          <!-- <div style="display: inline-block; width:60px;">
+            <yt-icon><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 20%; height: 100%;"><g>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10 S17.52,2,12,2z M9.92,17.93l-4.95-4.95l2.05-2.05l2.9,2.9l7.35-7.35l2.05,2.05L9.92,17.93z"></path>
+              </g></svg>
+            </yt-icon>
+          </div> -->
+          </sub><br>
+          <sub>221K views &#8231; 1 day ago</sub>
+        </figcaption>
+      </figure>
+      <img class="fillvids" src="images/fillimg1.png">
+      <img class="fillvids" src="images/fillimg2.png">
+      <img class="fillvids" src="images/fillimg3.png">
+      <img class="fillvids" src="images/fillimg4.png">
+      <img class="fillvids" src="images/fillimg5.png">
+      <img class="fillvids" src="images/fillimg6.png">
+      <img class="fillvids" src="images/fillimg7.png">
+      <img class="fillvids" src="images/fillimg8.png">
+      <img class="fillvids" src="images/fillimg9.png">
+      <img class="fillvids" src="images/fillimg6.png">
+      <img class="fillvids" src="images/fillimg7.png">
+      <img class="fillvids" src="images/fillimg8.png">
+      <img class="fillvids" src="images/fillimg9.png">
+    </div>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".menuico").click(function(){
+            $(".sidebar").toggle();
+        });
+      });
+    </script>
+    </body>
+</html>
